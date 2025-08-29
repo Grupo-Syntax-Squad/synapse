@@ -104,12 +104,44 @@ mvp banner
   <br> 
 
   ## 📜Commit Tags 
-  <div align="center">
+    
+  To maintain a clean and coherent Git history, the project follows the **Conventional Commits** standard. Commit messages must follow the format `type: #TASK_ID description`.
 
-padrão de commits
+  **Message structure:**
+
+  - `type`: Classifies the nature of the change.
+  - `#TASK_ID`: The task's identifier.
+  - `description`: A brief description of the change.
+
+  **Accepted commit types:**
+
+  |   Type     |       Description     | 
+  | :------:   | --------------------- |
+  | `feat`     | A new feature         |
+  | `fix`      | A bug                 |
+  | `docs`     | Documentation Changes |
+  | `style`    | Code formatting changes (CSS, etc.) without logic changes. |
+  | `refactor` | Code refactoring without a change in behavior. |
+  | `perf`     | Performance improvement. |
+  | `test`     | Adding or correcting tests. |
+  | `build`    | Changes to the build system. |
+  | `ci`       | Changes to the CI/CD configuration. |
+  | `chore`    | Maintenance tasks that do not alter the source code. |
+
+**Examples of valid commits:**
+
+```
+fix: #123 fixes the login screen layout
+feat: #456 adds a badge component
+chore: #789 updates libraries
+```
+
+> [!IMPORTANT]
+Where I found the TASK_ID?
+
+> [!TIP]
+>**the TASK_ID can be found in the jira panel, described in each task where only developers have access to this panel**
    
-  </div>
-
   <br> 
 
 <span id="howtorun">
