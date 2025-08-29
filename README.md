@@ -1,5 +1,8 @@
 
-banner do projeto
+<img width="1280" height="212" alt="synapse" src="https://github.com/user-attachments/assets/cdae4b36-48af-44d1-ad4d-3b9805e3b249" />
+
+<br>
+</br>
 
 <p align="center">
   | <a href ="#objective"> Project Objective </a>  |
@@ -7,7 +10,7 @@ banner do projeto
   <a href ="#technologies"> Technologies</a>  |   
   <a href ="#mvp"> MVP</a>  |
   <a href ="#sprints"> Sprints</a>  |
-  <a href ="#backlog"> Backlog do Produto</a>  |
+  <a href ="#backlog"> Product Backlog</a>  |
   <a href ="#dor">DoR</a>  |
   <a href ="#dod">DoD</a>  |
   <a href ="#datamodel">Data Model</a>  |
