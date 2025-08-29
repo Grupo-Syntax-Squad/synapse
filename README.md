@@ -98,7 +98,8 @@ mvp banner
  ## 🧱Data Model
  <p align="center">
   
-   foto do modelo de dados
+<img width="1151" height="378" alt="image" src="https://github.com/user-attachments/assets/cf163c26-6d0f-4760-9055-db44f6b9a509" />
+
 
 
   <br> 
