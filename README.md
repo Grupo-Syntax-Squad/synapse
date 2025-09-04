@@ -101,8 +101,7 @@ mvp banner
  ## 🧱Data Model
  <p align="center">
   
-<img width="1151" height="378" alt="image" src="https://github.com/user-attachments/assets/cf163c26-6d0f-4760-9055-db44f6b9a509" />
-
+<img width="1102" height="304" alt="image" src="https://github.com/user-attachments/assets/5931a26a-5181-46d1-b258-3782dadfb33f" />
 
 
   <br> 
