@@ -305,9 +305,3 @@
 - Given the user needs assistance
   When they click on "Help" or "Tutorial"
   Then the system should show simple and clear usage instructions.
-
----
-
-If you’d like to **convert this into a document**, table, or upload it to a project management tool like **Jira**, **ClickUp**, or **Trello**, I can help format it for that.
-
-Would you like to turn this into a downloadable file (like Excel, Word, or PDF)? Or is there something else you want to do next with this?
