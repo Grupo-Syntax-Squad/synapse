@@ -28,14 +28,14 @@
 
 <span id="vision">
 
-## 💡Product Vision
+## 💡Product Vision>
 
-This platform is designed to simplify the digestion and strategic use of administrative data through the automated generation of reports based on a predefined template provided by the client. Reports are delivered periodically via email to configured recipients, ensuring that information is shared in a consistent and standardized format—eliminating the need for manual data extraction or repetitive formatting. Administrators have full control over who receives each report, allowing targeted distribution based on specific roles or requirements. Additionally, the system includes an intelligent chat powered by Natural Language Processing (NLP), enabling users to interact with the platform in a simple, conversational way to ask questions or retrieve relevant information. This solution streamlines analysis, enhances data accessibility, and supports decision-making across the organization by making business-critical insights clear, actionable, and easy to access.
+> [!TIP]
+> This platform is designed to simplify the digestion and strategic use of administrative data through the automated generation of reports based on a predefined template provided by the client. Reports are delivered periodically via email to configured recipients, ensuring that information is shared in a consistent and standardized format—eliminating the need for manual data extraction or repetitive formatting. Administrators have full control over who receives each report, allowing targeted distribution based on specific roles or requirements. Additionally, the system includes an intelligent chat powered by Natural Language Processing (NLP), enabling users to interact with the platform in a simple, conversational way to ask questions or retrieve relevant information. This solution streamlines analysis, enhances data accessibility, and supports decision-making across the organization by making business-critical insights clear, actionable, and easy to access.
 
 ## 📚Methodology
 
-> [!TIP]
-> The Agile Methodology framework used in the product was Scrum, an adaptive, iterative, flexible, and effective agile method. One of the tools used in Scrum is dividing the project into **Sprints**. To determine our Sprint deliverables, we first defined our **MVP**, prioritizing tasks that provided the most value to the customer. From these tasks, we built the **Product Backlog**, which was approved by the client and divided into three Sprint Backlogs. With the tasks outlined, we estimated the time required for each one and optimized the workload distribution among the development team.
+The Agile Methodology framework used in the product was Scrum, an adaptive, iterative, flexible, and effective agile method. One of the tools used in Scrum is dividing the project into **Sprints**. To determine our Sprint deliverables, we first defined our **MVP**, prioritizing tasks that provided the most value to the customer. From these tasks, we built the **Product Backlog**, which was approved by the client and divided into three Sprint Backlogs. With the tasks outlined, we estimated the time required for each one and optimized the workload distribution among the development team.
 
 <span id="technologies"> 
  
