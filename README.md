@@ -166,9 +166,10 @@ chore: #789 updates libraries
 > [!IMPORTANT]
 > Where I found the TASK_ID?
 
-> [!TIP] >**the TASK_ID can be found in the jira panel, described in each task where only developers have access to this panel**
+> [!TIP]
+> **the TASK_ID can be found in the jira panel, described in each task where only developers have access to this panel**
 
-  <br>
+<br>
 
 <span id="howtorun">
 
