@@ -28,7 +28,7 @@
 
 <span id="vision">
 
-## 💡Product Vision>
+## 💡Product Vision
 
 > [!TIP]
 > This platform is designed to simplify the digestion and strategic use of administrative data through the automated generation of reports based on a predefined template provided by the client. Reports are delivered periodically via email to configured recipients, ensuring that information is shared in a consistent and standardized format—eliminating the need for manual data extraction or repetitive formatting. Administrators have full control over who receives each report, allowing targeted distribution based on specific roles or requirements. Additionally, the system includes an intelligent chat powered by Natural Language Processing (NLP), enabling users to interact with the platform in a simple, conversational way to ask questions or retrieve relevant information. This solution streamlines analysis, enhances data accessibility, and supports decision-making across the organization by making business-critical insights clear, actionable, and easy to access.
@@ -44,15 +44,26 @@ The Agile Methodology framework used in the product was Scrum, an adaptive, iter
 > These are the technologies used in the project's development:
 
 <h4 align="left">
-badges das tecnologias
+ <a href="https://www.python.org/" target="_blank"><img src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54" alt='Python'></a>
+ <a href="https://react.dev/" target="_blank"><img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt='React'></a>
+ <a href="https://primereact.org/" target="_blank"><img src="https://img.shields.io/badge/PrimeReact-38B2AC?style=for-the-badge&logo=primefaces&logoColor=white" alt='PrimeReact'></a>
+ <a href="https://tailwindcss.com/" target="_blank"><img src="https://img.shields.io/badge/TailwindCSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" alt='TailwindCSS'></a>
+ <a href="https://swagger.io/" target="_blank"><img src="https://img.shields.io/badge/Swagger-85EA2D?style=for-the-badge&logo=swagger&logoColor=black" alt='Swagger'></a>
+ <a href="https://fastapi.tiangolo.com/" target="_blank"><img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" alt='FastAPI'></a>
+ <a href="https://www.docker.com/" target="_blank"><img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt='Docker'></a>
+ <a href="https://aws.amazon.com/" target="_blank"><img src="https://img.shields.io/badge/AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white" alt='AWS'></a>
+ <a href="https://www.postgresql.org/" target="_blank"><img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" alt='PostgreSQL'></a>
+ <a href="https://www.typescriptlang.org/" target="_blank"><img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt='TypeScript'></a>
+ <a href="https://www.figma.com/" target="_blank"><img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white" alt='Figma'></a>
+ <a href="https://www.atlassian.com/software/jira" target="_blank"><img src="https://img.shields.io/badge/Jira-0052CC?style=for-the-badge&logo=jira&logoColor=white" alt='Jira'></a>
 </h4>
- <br> 
+<br> 
  
  <span id="mvp"> 
  
   ## 🏆**MVP**
 
-mvp banner
+<img width="1080" height="1080" alt="MVP" src="https://github.com/user-attachments/assets/5ddd610f-beaf-48aa-a616-ad3509dfd745" />
 
   <br>
   
@@ -158,9 +169,9 @@ To maintain a clean and coherent Git history, the project follows the **Conventi
 **Examples of valid commits:**
 
 ```
-fix: #123 fixes the login screen layout
-feat: #456 adds a badge component
-chore: #789 updates libraries
+fix: #SYNAPSE-1 fixes the login screen layout
+feat: #SYNAPSE-2 adds a badge component
+chore: #SYNAPSE-13 updates libraries
 ```
 
 > [!IMPORTANT]
