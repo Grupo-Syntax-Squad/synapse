@@ -22,7 +22,8 @@
 
 ## 📌Project Objective
 
-> [!IMPORTANT] > **Synapse** is a next-generation **smart and automated reporting platform** designed to revolutionize organizational decision-making through intelligent data processing and AI-powered insights. The platform delivers structured, periodic reports based on customizable client-defined templates while providing an intuitive conversational interface for real-time data exploration.
+> [!IMPORTANT]
+> **Synapse** is a next-generation **smart and automated reporting platform** designed to revolutionize organizational decision-making through intelligent data processing and AI-powered insights. The platform delivers structured, periodic reports based on customizable client-defined templates while providing an intuitive conversational interface for real-time data exploration.
 
 ### 🎯 **Core Mission**
 
@@ -47,7 +48,8 @@ Transform how organizations interact with their data by:
 
 ## 💡Product Vision
 
-> [!TIP] > **"Democratizing Data Intelligence Through Conversational Analytics"**
+> [!TIP]
+> **"Democratizing Data Intelligence Through Conversational Analytics"**
 
 Synapse envisions a future where every organization can unlock the full potential of their data without technical barriers. Our platform bridges the gap between complex data infrastructure and business users through two revolutionary approaches:
 
@@ -290,7 +292,8 @@ chore: #SYNAPSE-13 updates libraries
 > [!IMPORTANT]
 > Where I found the TASK_ID?
 
-> [!TIP] > **the TASK_ID can be found in the jira panel, described in each task where only developers have access to this panel**
+> [!TIP]
+> **the TASK_ID can be found in the jira panel, described in each task where only developers have access to this panel**
 
 <br>
 
@@ -395,8 +398,6 @@ npm run check:fix
 
 - **[Architecture Documentation](./docs/architure_diagram.md)** - Detailed system design
 - **[RBAC Documentation](./docs/rbac.md/)** -
-- **[API Reference](http://localhost:8000/docs)** - Interactive API documentation
-- **[Contributing Guide](./CONTRIBUTING.md)** - Development guidelines and standards
 
 <span id="authors">
 
