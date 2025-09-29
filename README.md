@@ -14,6 +14,7 @@
   <a href ="#dor">DoR</a>  |
   <a href ="#dod">DoD</a>  |
   <a href ="#datamodel">Data Model</a>  |
+  <a href ="#documentation">Technical Docs</a>  |
   <a href ="#howtorun">How to run?</a>  |
   <a href ="#authors"> Authors</a> |
 </p>
@@ -22,8 +23,7 @@
 
 ## 📌Project Objective
 
-> [!IMPORTANT]
-> **Synapse** is a next-generation **smart and automated reporting platform** designed to revolutionize organizational decision-making through intelligent data processing and AI-powered insights. The platform delivers structured, periodic reports based on customizable client-defined templates while providing an intuitive conversational interface for real-time data exploration.
+> [!IMPORTANT] > **Synapse** is a next-generation **smart and automated reporting platform** designed to revolutionize organizational decision-making through intelligent data processing and AI-powered insights. The platform delivers structured, periodic reports based on customizable client-defined templates while providing an intuitive conversational interface for real-time data exploration.
 
 ### 🎯 **Core Mission**
 
@@ -48,8 +48,7 @@ Transform how organizations interact with their data by:
 
 ## 💡Product Vision
 
-> [!TIP]
-> **"Democratizing Data Intelligence Through Conversational Analytics"**
+> [!TIP] > **"Democratizing Data Intelligence Through Conversational Analytics"**
 
 Synapse envisions a future where every organization can unlock the full potential of their data without technical barriers. Our platform bridges the gap between complex data infrastructure and business users through two revolutionary approaches:
 
@@ -252,9 +251,25 @@ The platform follows **Domain-Driven Design (DDD)** principles with clear separa
 <span id="datamodel">
  
  ## 🧱Data Model
+ 
+> [!NOTE]
+> **Complete database documentation is available in the technical documentation section below**
+
+The Synapse database follows a **normalized relational design** with PostgreSQL as the primary database engine and SQLAlchemy ORM for robust data management.
+
  <p align="center">
   
-<img width="1102" height="304" alt="image" src="https://github.com/user-attachments/assets/5931a26a-5181-46d1-b258-3782dadfb33f" />
+<img width="1102" height="304" alt="Synapse Database Model" src="https://github.com/user-attachments/assets/5931a26a-5181-46d1-b258-3782dadfb33f" />
+</p>
+
+### **📊 Core Database Components**
+
+- **👤 User Management**: Authentication, profiles, and RBAC permissions
+- **📊 Report System**: Automated report generation and delivery tracking
+- **🏢 Business Intelligence**: Client data, inventory, and sales transactions
+- **🔄 ETL Pipeline**: Automated data loading from CSV files
+
+**📖 [→ Complete Database Model Documentation](./docs/db_model.md)**
 
 ## 📜Commit Tags
 
@@ -292,8 +307,7 @@ chore: #SYNAPSE-13 updates libraries
 > [!IMPORTANT]
 > Where I found the TASK_ID?
 
-> [!TIP]
-> **the TASK_ID can be found in the jira panel, described in each task where only developers have access to this panel**
+> [!TIP] > **the TASK_ID can be found in the jira panel, described in each task where only developers have access to this panel**
 
 <br>
 
@@ -394,10 +408,25 @@ npm run check:fix
 3. **API Key Issues**: Ensure OpenAI API key is valid and has sufficient credits
 4. **CORS Errors**: Check frontend/backend URL configuration in environment variables
 
-### **📚 Additional Resources**
+<br>
 
-- **[Architecture Documentation](./docs/architure_diagram.md)** - Detailed system design
-- **[RBAC Documentation](./docs/rbac.md/)** -
+<span id="documentation">
+
+## 📚 **Technical Documentation**
+
+### **🔐 Security & Access Control**
+
+- **[RBAC (Role-Based Access Control)](./docs/rbac.md)** - Complete security model with user roles, permissions, and endpoint mapping
+- **[Authentication Flow](./docs/rbac.md#authorization-flows)** - JWT-based authentication and authorization processes
+
+### **🏗️ Architecture & Design**
+
+- **[System Architecture](./docs/architure_diagram.md)** - Comprehensive system design with dual-engine approach
+- **[Database Model](./docs/db_model.md)** - Complete database schema, relationships, ETL processes, and business intelligence data
+- **[Database Models (Code)](./backend/src/database/models.py)** - SQLAlchemy models and ORM definitions
+- **[API Endpoints](./docs/api_endpoints.md)** - Complete endpoint documentation with permissions
+
+<br>
 
 <span id="authors">
 
