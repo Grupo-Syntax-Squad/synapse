@@ -1,3 +1,8 @@
 [submodule "backend"]
 	path = backend
 	url = https://github.com/Grupo-Syntax-Squad/synapse-backend
+	branch = main
+[submodule "frontend"]
+	path = frontend
+	url = https://github.com/Grupo-Syntax-Squad/synapse-frontend.git
+	branch = main

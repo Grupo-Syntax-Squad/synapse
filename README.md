@@ -7,6 +7,7 @@
   | <a href ="#objective"> Project Objective </a>  |
   <a href ="#vision"> Product Vision</a>  |   
   <a href ="#technologies"> Technologies</a>  |   
+  <a href ="#architecture"> Architecture</a>  |
   <a href ="#mvp"> MVP</a>  |
   <a href ="#sprints"> Sprints</a>  |
   <a href ="#backlog"> Product Backlog</a>  |
@@ -21,21 +22,83 @@
 
 ## 📌Project Objective
 
-> [!IMPORTANT]
-> The objective of this project is to deliver a smart and automated reporting platform that enhances organizational decision-making by providing structured, periodic reports based on client-defined templates. The platform aims to reduce manual workload, ensure consistent data communication, and offer an intuitive user experience through natural language interaction. By allowing administrators to manage who receives reports and when, and enabling users to retrieve information via an NLP-powered chat, the system empowers teams to access and act on key insights more efficiently and effectively.
+> [!IMPORTANT] > **Synapse** is a next-generation **smart and automated reporting platform** designed to revolutionize organizational decision-making through intelligent data processing and AI-powered insights. The platform delivers structured, periodic reports based on customizable client-defined templates while providing an intuitive conversational interface for real-time data exploration.
 
-> **Project Status: In Progress :construction:**
+### 🎯 **Core Mission**
+
+Transform how organizations interact with their data by:
+
+- **Automating Report Generation**: Eliminate manual data extraction and formatting through intelligent SQL-based processing
+- **Enabling Conversational Analytics**: Provide AI-powered chat interface for natural language data queries
+- **Streamlining Data Communication**: Ensure consistent, standardized information delivery across the organization
+- **Enhancing Decision-Making**: Deliver actionable insights through predictive analytics and intelligent recommendations
+
+### 🚀 **Key Value Propositions**
+
+- **📊 Automated Intelligence**: AI-driven report generation with minimal human intervention
+- **💬 Natural Language Interface**: Query complex databases using everyday language
+- **⚡ Real-time Insights**: Instant access to live data and predictive analytics
+- **🔒 Enterprise Security**: Multi-layered security with GDPR compliance
+- **📈 Scalable Architecture**: Cloud-native design supporting thousands of concurrent users
+
+> **Project Status: 🚧 Active Development | Sprint 2 in Progress**
 
 <span id="vision">
 
 ## 💡Product Vision
 
-> [!TIP]
-> This platform is designed to simplify the digestion and strategic use of administrative data through the automated generation of reports based on a predefined template provided by the client. Reports are delivered periodically via email to configured recipients, ensuring that information is shared in a consistent and standardized format—eliminating the need for manual data extraction or repetitive formatting. Administrators have full control over who receives each report, allowing targeted distribution based on specific roles or requirements. Additionally, the system includes an intelligent chat powered by Natural Language Processing (NLP), enabling users to interact with the platform in a simple, conversational way to ask questions or retrieve relevant information. This solution streamlines analysis, enhances data accessibility, and supports decision-making across the organization by making business-critical insights clear, actionable, and easy to access.
+> [!TIP] > **"Democratizing Data Intelligence Through Conversational Analytics"**
 
-## 📚Methodology
+Synapse envisions a future where every organization can unlock the full potential of their data without technical barriers. Our platform bridges the gap between complex data infrastructure and business users through two revolutionary approaches:
 
-The Agile Methodology framework used in the product was Scrum, an adaptive, iterative, flexible, and effective agile method. One of the tools used in Scrum is dividing the project into **Sprints**. To determine our Sprint deliverables, we first defined our **MVP**, prioritizing tasks that provided the most value to the customer. From these tasks, we built the **Product Backlog**, which was approved by the client and divided into three Sprint Backlogs. With the tasks outlined, we estimated the time required for each one and optimized the workload distribution among the development team.
+### 🤖 **Intelligent Automation Engine**
+
+- **Template-Driven Reporting**: Configurable report templates that automatically process, normalize, and deliver insights via email
+- **Smart Distribution**: Role-based report delivery ensuring the right insights reach the right people at the right time
+- **Quality Assurance**: Automated data validation and error detection for reliable business intelligence
+
+### 💬 **Conversational Data Platform**
+
+- **Natural Language Analytics**: Ask complex questions about your data using everyday language
+- **Real-time Predictions**: AI-powered forecasting and trend analysis through conversational interface
+- **Interactive Exploration**: Drill down into data patterns through guided conversation flows
+- **Contextual Intelligence**: Maintains conversation history for deeper, more meaningful insights
+
+### 🌟 **Organizational Impact**
+
+By combining **automated report generation** with **conversational AI capabilities**, Synapse transforms data from a technical challenge into a competitive advantage, enabling organizations to:
+
+- Make faster, data-driven decisions
+- Reduce dependency on technical teams for data access
+- Improve data literacy across all organizational levels
+- Scale insights delivery without scaling headcount
+
+## 📚Development Methodology
+
+### 🏃‍♂️ **Agile Development Framework**
+
+Synapse follows **Scrum methodology** - an adaptive, iterative, and highly effective agile approach that enables rapid delivery of high-quality features while maintaining flexibility for changing requirements.
+
+#### **🔄 Our Scrum Implementation**
+
+- **Sprint Duration**: 3-week iterations for optimal feature development and testing cycles
+- **Value-Driven Prioritization**: MVP-first approach ensuring maximum customer value in each delivery
+- **Collaborative Planning**: Cross-functional team collaboration with Product Owner and Scrum Master guidance
+- **Continuous Improvement**: Regular retrospectives driving process optimization and team growth
+
+#### **📋 Development Process**
+
+1. **Product Backlog Refinement**: Continuous stakeholder collaboration for requirement clarity
+2. **Sprint Planning**: Strategic task breakdown and team capacity optimization
+3. **Daily Stand-ups**: Progress synchronization and impediment resolution
+4. **Sprint Review**: Stakeholder demonstration and feedback integration
+5. **Sprint Retrospective**: Team learning and process enhancement
+
+#### **🎯 Quality Assurance Integration**
+
+- **Definition of Ready (DoR)**: Ensures all user stories meet quality criteria before development
+- **Definition of Done (DoD)**: Comprehensive completion standards including testing and documentation
+- **Continuous Integration**: Automated testing and deployment pipelines for reliable delivery
 
 <span id="technologies"> 
  
@@ -44,20 +107,70 @@ The Agile Methodology framework used in the product was Scrum, an adaptive, iter
 > These are the technologies used in the project's development:
 
 <h4 align="left">
- <a href="https://www.python.org/" target="_blank"><img src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54" alt='Python'></a>
- <a href="https://react.dev/" target="_blank"><img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt='React'></a>
- <a href="https://primereact.org/" target="_blank"><img src="https://img.shields.io/badge/PrimeReact-38B2AC?style=for-the-badge&logo=primefaces&logoColor=white" alt='PrimeReact'></a>
- <a href="https://tailwindcss.com/" target="_blank"><img src="https://img.shields.io/badge/TailwindCSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" alt='TailwindCSS'></a>
- <a href="https://swagger.io/" target="_blank"><img src="https://img.shields.io/badge/Swagger-85EA2D?style=for-the-badge&logo=swagger&logoColor=black" alt='Swagger'></a>
- <a href="https://fastapi.tiangolo.com/" target="_blank"><img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" alt='FastAPI'></a>
- <a href="https://www.docker.com/" target="_blank"><img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt='Docker'></a>
- <a href="https://aws.amazon.com/" target="_blank"><img src="https://img.shields.io/badge/AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white" alt='AWS'></a>
- <a href="https://www.postgresql.org/" target="_blank"><img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" alt='PostgreSQL'></a>
  <a href="https://www.typescriptlang.org/" target="_blank"><img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt='TypeScript'></a>
+ <a href="https://react.dev/" target="_blank"><img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt='React'></a>
+ <a href="https://sass-lang.com/" target="_blank"><img src="https://img.shields.io/badge/SCSS-CC6699?style=for-the-badge&logo=sass&logoColor=white" alt='SCSS'></a>
+ <a href="https://getbootstrap.com/" target="_blank"><img src="https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white" alt='Bootstrap'></a>
+ <a href="https://primereact.org/" target="_blank"><img src="https://img.shields.io/badge/PrimeReact-38B2AC?style=for-the-badge&logo=primefaces&logoColor=white" alt='PrimeReact'></a>
+ <a href="https://vitejs.dev/" target="_blank"><img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white" alt='Vite'></a>
+ <a href="https://swagger.io/" target="_blank"><img src="https://img.shields.io/badge/Swagger-85EA2D?style=for-the-badge&logo=swagger&logoColor=black" alt='Swagger'></a>
+ <a href="https://prometheus.io/" target="_blank"><img src="https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white" alt='Prometheus'></a>
+ <a href="https://grafana.com/" target="_blank"><img src="https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white" alt='Grafana'></a>
+ <a href="https://grafana.com/oss/loki/" target="_blank"><img src="https://img.shields.io/badge/Loki-F46800?style=for-the-badge&logo=grafana&logoColor=white" alt='Loki Logger'></a>
+ <a href="https://www.python.org/" target="_blank"><img src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54" alt='Python'></a>
+ <a href="https://fastapi.tiangolo.com/" target="_blank"><img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" alt='FastAPI'></a>
+ <a href="https://typicode.github.io/husky/" target="_blank"><img src="https://img.shields.io/badge/Husky-42B883?style=for-the-badge&logo=git&logoColor=white" alt='Husky'></a>
+ <a href="https://www.docker.com/" target="_blank"><img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt='Docker'></a>
+ <a href="https://www.postgresql.org/" target="_blank"><img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" alt='PostgreSQL'></a>
+ <a href="https://redis.io/" target="_blank"><img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white" alt='Redis'></a>
  <a href="https://www.figma.com/" target="_blank"><img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white" alt='Figma'></a>
  <a href="https://www.atlassian.com/software/jira" target="_blank"><img src="https://img.shields.io/badge/Jira-0052CC?style=for-the-badge&logo=jira&logoColor=white" alt='Jira'></a>
+ <a href="https://aws.amazon.com/" target="_blank"><img src="https://img.shields.io/badge/AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white" alt='AWS'></a>
 </h4>
-<br> 
+<br>
+
+<span id="architecture">
+
+## 🏗️ **System Architecture**
+
+> [!NOTE]
+> Synapse implements a **modern layered architecture** designed for enterprise-scale intelligent reporting and natural language processing.
+
+### **🎯 Architectural Overview**
+
+The platform follows **Domain-Driven Design (DDD)** principles with clear separation of concerns across four primary layers:
+
+- **🎨 Presentation Layer**: React + TypeScript + PrimeReact for responsive, accessible UI
+- **🔗 Application Services**: FastAPI gateway with microservices architecture
+- **🧠 Business Intelligence**: Dual-engine approach (SQL Reports + NLP Chat)
+- **🗄️ Data Persistence**: PostgreSQL + Redis for high-performance data management
+
+### **🔧 Key Architectural Features**
+
+| Feature                     | Technology                  | Benefits                              |
+| --------------------------- | --------------------------- | ------------------------------------- |
+| **Microservices Design**    | FastAPI + Docker            | Independent scaling and deployment    |
+| **Real-time Communication** | WebSocket + Redis           | Instant chat and live notifications   |
+| **Security-First**          | JWT + RBAC + HTTPS          | Enterprise-grade security framework   |
+| **Observability**           | Prometheus + Grafana + Loki | Comprehensive monitoring and alerting |
+
+### **📊 Processing Engines**
+
+#### **SQL Report Engine**
+
+- Automated report generation using optimized SQL queries
+- Template-based formatting with multi-format export (PDF, Excel, CSV)
+- Scheduled delivery system with email notifications
+
+#### **NLP Chat Engine**
+
+- AI-powered conversational interface for database queries
+- Real-time predictions and dynamic calculations
+- Context-aware multi-turn conversations with data insights
+
+> **[📋 Detailed Architecture Documentation](./docs/architure_diagram.md)**
+
+<br>
  
  <span id="mvp"> 
  
@@ -72,7 +185,7 @@ The Agile Methodology framework used in the product was Scrum, an adaptive, iter
 ## 📅Sprints
 | Sprint          |    Period     | Documentation                                    | Status |
 | --------------- | :-----------: | ------------------------------------------------ | :----: |
-| 🔖 **SPRINT 1** | 08/09 - 28/09 | [Sprint 1 Docs](./docs/sprints/sprint-1.md) | In progress :construction: |
+| 🔖 **SPRINT 1** | 08/09 - 28/09 | [Sprint 1 Docs](./docs/sprints/sprint-1.md) | Done ✅ |
 | 🔖 **SPRINT 2** | 06/10 - 26/10 | [Sprint 2 Docs](./docs/sprints/sprint-2.md) | In progress :construction: |
 | 🔖 **SPRINT 3** | 03/11 - 23/11 | [Sprint 3 Docs](./docs/sprints/sprint-3.md) | In progress :construction: |
   
@@ -177,14 +290,113 @@ chore: #SYNAPSE-13 updates libraries
 > [!IMPORTANT]
 > Where I found the TASK_ID?
 
-> [!TIP]
-> **the TASK_ID can be found in the jira panel, described in each task where only developers have access to this panel**
+> [!TIP] > **the TASK_ID can be found in the jira panel, described in each task where only developers have access to this panel**
 
 <br>
 
 <span id="howtorun">
 
-## 🤔How to Run?
+## 🚀 **Getting Started**
+
+### **📋 Pre-requisites**
+
+Before running Synapse, ensure you have the following installed:
+
+- **Node.js** 18+ and **npm/yarn** for frontend development
+- **Python** 3.11+ and **pip** for backend services
+- **Docker** and **Docker Compose** for containerized deployment
+- **PostgreSQL** 15+ for database (or use Docker setup)
+- **Redis** 7+ for caching and session management
+
+### **⚡ Quick Start (Development)**
+
+#### **1. Clone the Repository**
+
+```bash
+git clone https://github.com/Grupo-Syntax-Squad/synapse.git
+cd synapse
+```
+
+#### **2. Backend Setup**
+
+```bash
+cd backend
+pip install -r requirements.txt
+cp .env.example .env  # Configure your environment variables
+alembic upgrade head  # Run database migrations
+uvicorn src.main:app --reload --host 0.0.0.0 --port 8000
+```
+
+#### **3. Frontend Setup**
+
+```bash
+cd frontend
+npm install
+npm run dev  # Starts development server on http://localhost:3000
+```
+
+### **🐳 Docker Deployment (Production)**
+
+#### **Full Stack Deployment**
+
+```bash
+# Build and start all services
+docker-compose up -d
+
+# View logs
+docker-compose logs -f
+
+# Stop all services
+docker-compose down
+```
+
+### **🔧 Configuration**
+
+#### **Database Management**
+
+```bash
+# Run migrations
+cd backend && alembic upgrade head
+
+# Create new migration
+alembic revision --autogenerate -m "Description"
+
+# Reset database (development only)
+docker-compose down -v && docker-compose up -d postgres
+```
+
+### **� Testing**
+
+#### **Backend Tests**
+
+```bash
+cd backend
+pytest .
+pytest --cov=src tests/  # With coverage
+```
+
+#### **Frontend Tests**
+
+```bash
+cd frontend
+npm run check:fix
+```
+
+### **🔍 Troubleshooting**
+
+#### **Common Issues**
+
+1. **Port Conflicts**: Ensure ports 3000, 8000, 5432, 6379 are available
+2. **Database Connection**: Verify PostgreSQL is running and credentials are correct
+3. **API Key Issues**: Ensure OpenAI API key is valid and has sufficient credits
+4. **CORS Errors**: Check frontend/backend URL configuration in environment variables
+
+### **📚 Additional Resources**
+
+- **[Architecture Documentation](./docs/architure_diagram.md)** - Detailed system design
+- **[RBAC Documentation](./docs/rbac.md/)** -
+- **[API Reference](http://localhost:8000/docs)** - Interactive API documentation
+- **[Contributing Guide](./CONTRIBUTING.md)** - Development guidelines and standards
 
 <span id="authors">
 
@@ -197,3 +409,26 @@ chore: #SYNAPSE-13 updates libraries
 |       Iago Cardoso Souza       |   Developer   |     <a href="https://github.com/iagocpv"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a>      |       <a href="https://www.linkedin.com/in/iago-cardoso-315955194/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a>       |
 | João Vitor dos Santos Pereira  |   Developer   |     <a href="https://github.com/JaovitoP"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a>     |           <a href="https://www.linkedin.com/in/joaopereira18/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a>            |
 |    Ryan Verissimo de Araujo    |   Developer   |   <a href="https://github.com/ryandaraujo"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a>    | <a href="https://www.linkedin.com/in/ryan-verissimo-de-araujo-910925239/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a> |
+
+---
+
+## 📄 **License**
+
+This project is licensed under the **AFL License** - see the [LICENSE](./LICENSE) file for details.
+
+### **Enterprise Support**
+
+For enterprise deployments, custom integrations, and commercial support, please contact our team directly.
+
+---
+
+<div align="center">
+
+**Built with ❤️ by the Syntax Squad Team**
+
+[![GitHub Stars](https://img.shields.io/github/stars/Grupo-Syntax-Squad/synapse?style=social)](https://github.com/Grupo-Syntax-Squad/synapse)
+[![GitHub Forks](https://img.shields.io/github/forks/Grupo-Syntax-Squad/synapse?style=social)](https://github.com/Grupo-Syntax-Squad/synapse)
+[![GitHub Issues](https://img.shields.io/github/issues/Grupo-Syntax-Squad/synapse)](https://github.com/Grupo-Syntax-Squad/synapse/issues)
+[![GitHub PRs](https://img.shields.io/github/issues-pr/Grupo-Syntax-Squad/synapse)](https://github.com/Grupo-Syntax-Squad/synapse/pulls)
+
+</div>
