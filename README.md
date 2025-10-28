@@ -189,7 +189,7 @@ The platform follows **Domain-Driven Design (DDD)** principles with clear separa
 | Sprint          |    Period     | Documentation                                    | Status |
 | --------------- | :-----------: | ------------------------------------------------ | :----: |
 | 🔖 **SPRINT 1** | 08/09 - 28/09 | [Sprint 1 Docs](./docs/sprints/sprint-1.md) | Done ✅ |
-| 🔖 **SPRINT 2** | 06/10 - 26/10 | [Sprint 2 Docs](./docs/sprints/sprint-2.md) | In progress :construction: |
+| 🔖 **SPRINT 2** | 06/10 - 26/10 | [Sprint 2 Docs](./docs/sprints/sprint-2.md) | Done ✅ |
 | 🔖 **SPRINT 3** | 03/11 - 23/11 | [Sprint 3 Docs](./docs/sprints/sprint-3.md) | In progress :construction: |
   
 <br>
