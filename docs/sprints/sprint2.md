@@ -3,7 +3,7 @@
 ## 📅 Sprint Information
 
 - **Period:** 06/10 - 26/10
-- **Status:** In Progress 🚧
+- **Status:** In Progress ✔️
 - **Total Story Points:** 27
 
 ## 🎯 Sprint Objectives
